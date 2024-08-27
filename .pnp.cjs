@@ -39,6 +39,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ef4277cc0ecabd4cfbb189bd8c99b2bf0b6f7aad144dc7eb142f69915f234a09b3d32d41a299e69ecbb391ab49efe5e20df544af1e36cf5b5765089ab1535fbe#npm:18.3.1"],\
           ["react-scripts", "virtual:ef4277cc0ecabd4cfbb189bd8c99b2bf0b6f7aad144dc7eb142f69915f234a09b3d32d41a299e69ecbb391ab49efe5e20df544af1e36cf5b5765089ab1535fbe#npm:5.0.1"],\
+          ["sass", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -10510,6 +10511,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["immutable", [\
+      ["npm:4.3.7", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/immutable-npm-4.3.7-a76ac3621b-10c0.zip/node_modules/immutable/",\
+        "packageDependencies": [\
+          ["immutable", "npm:4.3.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["import-fresh", [\
       ["npm:3.3.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/import-fresh-npm-3.3.0-3e34265ca9-10c0.zip/node_modules/import-fresh/",\
@@ -12578,6 +12588,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ef4277cc0ecabd4cfbb189bd8c99b2bf0b6f7aad144dc7eb142f69915f234a09b3d32d41a299e69ecbb391ab49efe5e20df544af1e36cf5b5765089ab1535fbe#npm:18.3.1"],\
           ["react-scripts", "virtual:ef4277cc0ecabd4cfbb189bd8c99b2bf0b6f7aad144dc7eb142f69915f234a09b3d32d41a299e69ecbb391ab49efe5e20df544af1e36cf5b5765089ab1535fbe#npm:5.0.1"],\
+          ["sass", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -16086,6 +16097,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/sanitize.css-npm-13.0.0-3424903b5d-10c0.zip/node_modules/sanitize.css/",\
         "packageDependencies": [\
           ["sanitize.css", "npm:13.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/sass-npm-1.77.8-d0ad322666-10c0.zip/node_modules/sass/",\
+        "packageDependencies": [\
+          ["sass", "npm:1.77.8"],\
+          ["chokidar", "npm:3.6.0"],\
+          ["immutable", "npm:4.3.7"],\
+          ["source-map-js", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
