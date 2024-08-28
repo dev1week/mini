@@ -6,6 +6,9 @@ import './scss/global.scss';
 import classNames from 'classnames/bind'
 import styles from './App.module.scss'
 
+
+import FullScreenMessage from "./components/shared/FullScreenMessage"
+
 const cx = classNames.bind(styles)
 function App() {
   const [wedding, setWedding] = useState(null); 
@@ -37,10 +40,10 @@ function App() {
 
 
   if(loading){
-    return <div>Loading</div>
+    return <FullScreenMessage type='loading'/>
   } 
   if(error){
-    return <div>error</div>  
+    return <FullScreenMessage type='error'/>
   }
 
   return (
