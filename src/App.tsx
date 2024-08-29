@@ -18,7 +18,7 @@ function App() {
   useEffect(()=>{
     //비동기에서 데이터를 보장받을 수 있는 방법 
       //callback, promise, async-await
-    fetch('http://localhost:8888/wedding22').then((response)=>{
+    fetch('http://localhost:8888/wedding').then((response)=>{
       if(response.ok===false){
         throw new Error('청첩장 정보를 불러오지 못했습니다.')
 
